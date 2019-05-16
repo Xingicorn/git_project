@@ -2,10 +2,10 @@ package com.nnxy.team;
 
 public class Student {
  
-	private int age;
-	private int id;
-	private String username;
-	private String password;
+	private int age;//年龄
+	private int id;//ID
+	private String username;//姓名
+	private String password;//密码
 	@Override
 	public String toString() {
 		return "Student [age=" + age + ", id=" + id + ", username=" + username + ", password=" + password + "]";
